@@ -1,0 +1,127 @@
+{
+  "name": "Sonali Singh",
+  "info": {},
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "location": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "US",
+    "code": "30332",
+    "address": "330525 Georgia Tech Station"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Technology Analyst Intern",
+        "employer": "Bank of America Merrill Lynch",
+        "summary": "",
+        "start": "June 2016",
+        "end": "August 2016",
+        "url": "Jacksonville, FL",
+        "keywords": [],
+        "highlights": [
+          "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+          "Successfully won Techcrunch Disrupt",
+          "Optimized an algorithm that holds the current world record for Weisman Scores"
+        ]
+      },
+      {
+        "position": "Student Assistant",
+        "employer": "Georgia Institute of Technology | College of Computing ",
+        "summary": "Worked as a student teacher for the I3 program.",
+        "start": "September 2015",
+        "end": "May 2016",
+        "url": "",
+        "keywords": [],
+        "highlights": [
+          "Lecturing and facilitating programming, robotics and electronics lessons for elementary, middle and high school students in Atlanta to increase the representation of minorities in the technical field."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "University of Oklahoma",
+        "start": "2011-06-01",
+        "end": "2014-01-01",
+        "grade": "4.0",
+        "curriculum": [
+          "DB1101 - Basic SQL",
+          "CS2011 - Java Introduction"
+        ],
+        "summary": "",
+        "area": "Information Technology",
+        "studyType": "Bachelor"
+      }
+    ]
+  },
+  "service": {
+    "history": [
+      {
+        "type": "volunteer",
+        "position": "Teacher",
+        "organization": "CoderDojo",
+        "start": "2012-01-01",
+        "end": "2013-01-01",
+        "url": "https://coderdojo.com/",
+        "summary": "Global movement of free coding clubs for young people.",
+        "highlights": [
+          "Awarded 'Teacher of the Month'"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Web Development",
+        "level": "Master",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Javascript"
+        ]
+      },
+      {
+        "name": "Compression",
+        "level": "Master",
+        "skills": [
+          "Mpeg",
+          "MP4",
+          "GIF"
+        ]
+      }
+    ]
+  },
+  "writing": [],
+  "recognition": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "from": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "social": [
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "",
+      "user": "singhsonali1"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/singhsonali",
+      "user": "singhsonali"
+    }
+  ],
+  "interests": [],
+  "testimonials": 0,
+  "languages": []
+}

@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Sonali Singh",
+    "label": "Georgia Institute of Technology | Computer Science",
+    "picture": "",
+    "email": "singh.sonali2012@gmail.com",
+    "phone": "(925) 549-2131",
+    "website": "sonalisingh.me",
+    "summary": "Senior at Georgia Tech, graduating in May 2017 with a degree in Computer Science and a certification in Information Technology Management. Interested in software development and product management roles.",
+    "location": {
+      "address": "330525 Georgia Tech Station",
+      "postalCode": "30332",
+      "city": "Atlanta",
+      "countryCode": "US",
+      "region": "GA"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "singhsonali1",
+        "url": "https://linkedin.com/in/singhsonali1"
+      },
+      {
+        "network": "GitHub",
+        "username": "singhsonali",
+        "url": "https://github.com/singhsonali"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Bank of America Merrill Lynch",
+      "position": "Technology Analyst Intern",
+      "website": "Jacksonville, FL",
+      "startDate": "June 2016",
+      "endDate": "August 2016",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Georgia Institute of Technology | College of Computing",
+      "position": "Student Assistant",
+      "website": "Atlanta, GA",
+      "startDate": "September 2015",
+      "endDate": "May 2016",
+      "summary": "Worked with the I3-Imagine, Investigate and Innovate program. A series of free after-school activities designed to introduce young people to computer science as a college major, career or even as a complement to another interest.",
+      "highlights": [
+        "Worked as a student teacher lecturing and facilitating programming, robotics and electronics lessons for elementary, middle and high school students."
+      ]
+    },
+    {
+      "company": "Georgia Institute of Technology",
+      "position": "Undergraduate Research Assistant",
+      "website": "Atlanta, GA",
+      "startDate": "August 2015",
+      "endDate": "December 2015",
+      "summary": "Researched under Iulian Radu and Dr. Blair MacIntyre with augmented-reality experiences for children, specifically studying usability and educational applications through user studies, UX and video-game design, prototyping, qualitative and quantitative analysis.",
+      "highlights": [
+        " AR SPOT an augmented-reality authoring environment for children. It's an extension of MIT's Scratch project which allows children to create experiences that mix real and virtual elements",
+        "Used Unity and C# to design the main game design used for the research",
+        "annotated experimental videos to see how kids react to the games and what changes could be made to make it more interactive"
+      ]
+    },
+    {
+      "company": "Georgia Institute of Technology",
+      "position": "Undergraduate Research Assistant | Virtually Integrated Programs",
+      "website": "Atlanta, GA",
+      "startDate": "January 2015",
+      "endDate": "May 2015",
+      "summary": "Researched as a part of the Virtually Integrated Projects Program within the Aquabots team with advisor Mick West. Researched a marine robots sensing and perception of objects in unstructured marine environment. Made modifications to the IceFin Robot.",
+      "highlights": [
+        "Designed and programed robot arm prototype using Python, ROS and Blender.",
+        "Determined power consumption of robot in different states of activity and helped determine type, number and configurations of batteries to power the robot.",
+        "Worked on redesigning the PC boards that delivered power to the robot to support new components and reduce wasted space on existing PC boards."
+      ]
+    },
+    {
+      "company": "Georgia Institute of Technology",
+      "position": "Undergraduate Student Researcher | Virtually Integrated Programs",
+      "website": "Atlanta, GA",
+      "startDate": "August 2014",
+      "endDate": "October 2014",
+      "summary": "Researched in the Vertically Integrated Projects Program within the GTRI Agricultural Robotics Team under Professor Michael Matthews. In teams researched, developed and tested new types of soft robot gripper capable of picking a variety of fruit securely and without damage, after accurately assessing ripeness.",
+      "highlights": [
+        "Worked under the Image Analysis team to improve the functioning of an agricultural robot.",
+        "Added an image alignment feature to the source code using the Point Cloud Library and the Iterative Closest Point approach and improved functionality of the mapping code by 17%."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "B.Sc. Computer Science ",
+      "studyType": "Certification: Information Technology Management",
+      "startDate": "August 2013",
+      "endDate": "May 2017",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python",
+        "C",
+        "MySQL",
+        "D3.js",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "",
+      "level": "Master",
+      "keywords": []
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
