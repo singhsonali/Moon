@@ -1,0 +1,149 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+% 
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont Sonali}{\fontspec[Path = fonts/lato/]{Lato-Hai}\fontsize{40pt}{10cm}\selectfont \selectfont Singh}{ \urlstyle{same}\href{mailto: singh.sonali2012@gmail.com}{singh.sonali2012@gmail.com} | 925.549.2131\\
+\url{singhsonali.github.io} \\
+\url{linkedin.com/in/singhsonali1}
+}
+
+
+% 		\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2}
+\section{Education}
+\runsubsection{Georgia Institute of Technology}
+\descript{| B. Sc. Computer Science}
+\location{August 2013 - May 2017  |  Atlanta, GA}
+\href{https://www.scheller.gatech.edu/degree-programs/undergraduate/courses-curriculum/curriculum-itm.html}{Minor: Information Technology Management Certification} \\
+Threads: Artificial Intelligence and People (UI/UX) |  Dean's List
+\sectionsep
+
+\section{Work Experience}
+
+\runsubsection{Bank of America Merrill Lynch}
+\descript{| Technology Analyst Intern }
+\location{June 2016 – August 2016 | Jacksonville, FL}
+\begin{tightemize}
+\item Interned on the Computer Telephony Integration (CTI) team that works with automated voice recognition and call routing. 
+\item Project Leader: Designed and created automated dashboards using Splunk and MySQL for monitoring call center data logs.
+\item Wrote scripts to link data logs that normally require individual retrieval. Resulted in 4x speedup for identifying and fixing call networking and routing issues.
+\item Held Splunk training sessions for the team.
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Georgia Institute of Technology | College of Computing}
+\descript{| Student Assistant }
+\location{September 2015 – May 2016 | Atlanta, GA}
+\begin{tightemize}
+\item Worked in I3: Imagine, Investigate and Innovate, a series of after-school activities designed to introduce K-12 students to computer science and STEM. 
+\item Taught lectures and facilitated programming, robotics and electronics lessons for elementary, middle and high school students using MIT's Scratch.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Georgia Institute of Technology}
+\descript{| Undergraduate Research Assistant}
+\location{August 2015 – December 2015 | Atlanta, GA}
+\begin{tightemize}
+\item Researched in Dr. Blair MacIntyre Augmented Environments Lab. Project: Augmented-reality experiences for children, studying educational applications through user studies, UX and video-game design, prototyping, qualitative and quantitative analysis. \\ 
+\item Created a game application in Unity. Iteratively modified UI Layout in Unity based on findings from research study.  
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Georgia Institute of Technology | }
+\descript{| Undergraduate Research Assistant | Aquabots}
+\location{January 2015 – May 2015 | Atlanta, GA}
+\begin{tightemize}
+\item Researched as a part of the Virtually Integrated Projects Program within the Aquabots team. Worked on marine robots, for sensing and perception of objects in an unstructured marine environment. Made modifications to the IceFin Robot. 
+\item Designed a 3D prototype robot arm in Blender. Involved with programming for arm movement in Python and ROS (Robot Operating System).
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Georgia Institute of Technology | }
+\descript{| Undergraduate Research Assistant | Robotics}
+\location{January 2015 – May 2015 | Atlanta, GA}
+\begin{tightemize}
+\item Researched in the Vertically Integrated Projects Program within the GTRI Agricultural Robotics Team.
+\item Developed and tested new types of soft robot gripper capable for picking a variety of fruit securely and without damage, after accurately assessing ripeness. 
+\item Image Analysis Team: Added an image alignment feature to the source code using the Point Cloud Library and the Iterative Closest Point approach in Python.
+\end{tightemize}
+\sectionsep
+
+\begin{minipage}[t]{.65\textwidth}
+\section{Projects}
+\location{Interactive Visualization of Terrorist Attacks}
+\hspace{1 mm} Used d3.js to make interactive plot of terror strike dataset  \\ 
+\location{American Gymnast | 3D Gym Design}
+\hspace{1 mm} Managing Project Roadmap and creating 3D design space using Unity and C\#  \\ 
+\location{Atari Mule}
+\hspace{1 mm} Re-designed and implemented the Mule game in Java and JavaFX\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.25\textwidth}
+\section{Skills}
+\location{Languages:} Java, Python, MySQL, C, D3.JS\\
+\location{Tools \& Frameworks:} Git, Splunk, HTML, CSS, \LaTeX\\
+\end{minipage}
+
+\end{document}  \documentclass[]{article}
